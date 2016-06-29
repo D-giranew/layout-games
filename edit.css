@@ -6,88 +6,52 @@ part I:
 position 8/19
 =========== */
 
-.container {
-  position: relative;
-}
 
-.container nav {
-  position: absolute;
-  left: 0px;
-  width: 200px;
-}
-section {
-  margin-left: 200px;
-}
-body {
-  margin-bottom: 120px;
-}
 
 /* ===========
 float, fixed width 12/19
 =========== */
 
-/*.container:after {
+/*
+.container:after {
   content: ".";
   display: block;
   height: 0;
   clear: both;
   visibility: hidden;
-}
-
-nav {
-  float: left;
-  width: 200px;
-}
-section {
-  margin-left: 200px;
 }*/
+
+
 
 /* ===========
 float, percent 13/19
 =========== */
 
-/*.container:after {
+/*
+.container:after {
   content: ".";
   display: block;
   height: 0;
   clear: both;
   visibility: hidden;
-}
-
-nav {
-  float: left;
-  width: 25%;
-}
-section {
-  margin-left: 25%;
 }*/
+
+
 
 /* ===========
 media-queries, float, percent 14/19
 =========== */
 
-/*.container:after {
+/*
+.container:after {
   content: ".";
   display: block;
   height: 0;
   clear: both;
   visibility: hidden;
-}
-
-@media screen and (min-width:600px) {
-  nav {
-    float: left;
-    width: 25%;
-  }
-  section {
-    margin-left: 25%;
-  }
-}
-@media screen and (max-width:599px) {
-  nav li {
-    display: inline;
-  }
 }*/
+
+
 
 /* ************
 part II:
@@ -97,29 +61,9 @@ part II:
 inline-block, percent 16/19
 =========== */
 
-/*nav {
-  display: inline-block;
-  vertical-align: top;
-  width: 25%;
-}
-.column {
-  display: inline-block;
-  vertical-align: top;
-  width: 75%;
-}*/
+
 
 /* ===========
 flexbox 17/19
 =========== */
 
-/*.container {
-  display: -webkit-flex;
-  display: flex;
-}
-nav {
-  width: 200px;
-}
-.flex-column {
-  -webkit-flex: 1;
-          flex: 1;
-}*/
